@@ -1,0 +1,13 @@
+package wrapperclass;
+
+import java.lang.*;
+
+public class AutoBoxingandAutoUnboxing {
+	public static void main(String[] args) {
+		Integer li = new Integer(10);
+		int i=li;//autounboxing
+		int i1=li.intValue();
+		
+	}
+
+}

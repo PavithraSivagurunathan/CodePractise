@@ -1,0 +1,11 @@
+package collection;
+
+import java.util.*;
+
+public class ArrayListProgram {
+	
+	public static void main(String[] args) {
+		ArrayList ls = new ArrayList();
+	}
+
+}

@@ -1,0 +1,18 @@
+package collection;
+
+
+import java.util.*;
+
+public class GenericCollectionSorting {
+	
+	public static void main (String[] args) {
+		Stack <Integer> r = new Stack<Integer>();
+		r.push(1);
+		r.push(2);
+		r.push(4);
+		System.out.println(r);
+		Iterator li =r.iterator();
+		
+	}
+
+}

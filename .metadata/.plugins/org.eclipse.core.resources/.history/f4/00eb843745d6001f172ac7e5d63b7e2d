@@ -1,0 +1,20 @@
+package collection;
+
+import java.util.*;
+
+public class PriorityQueueCollection {
+	
+	public static void main(String[] args) {
+		Queue t=new PriorityQueue();
+		t.add('a');
+		t.add('e');
+		t.add('r');
+		Queue t1 =new PriorityQueue(t);
+		System.out.println(t);
+		System.out.println(t1);
+		System.out.println(t.peek());
+		
+	}
+	
+
+}

@@ -1,0 +1,14 @@
+package typeCasting;
+
+public class NonPrimitiveCasting {
+	static int a=78;
+	static long b=244l;
+	public static void main (String [] args) {
+		 int c=(int)b;//DownCasting
+		  float d= c;//Upcasting
+		System.out.println(c);
+		System.out.println(d);
+	}
+
+}
+

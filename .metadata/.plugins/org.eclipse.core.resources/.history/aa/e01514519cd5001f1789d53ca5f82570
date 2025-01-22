@@ -1,0 +1,13 @@
+package typeCasting;
+
+public class NonPrimitiveCasting extends ClassNonprimtitveA {
+	int d = 5;
+	public static void main (String [] args) {
+		ClassNonprimtitveA ref= new NonPrimitiveCasting();
+		System.out.println(ref.r);
+		System.out.println(ref.d);
+		 
+	}
+
+}
+

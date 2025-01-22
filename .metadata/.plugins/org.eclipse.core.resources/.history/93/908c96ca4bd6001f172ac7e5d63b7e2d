@@ -1,0 +1,14 @@
+package collection;
+
+import java.util.*;
+
+public class HashMapset {
+	public static void main (String[] args) {
+		
+		HashMap <Integer,String> r= new HashMap<Integer,String>();
+		HashMap<Integer, String> hm
+        = new HashMap<Integer, String>();
+		
+	}
+
+}

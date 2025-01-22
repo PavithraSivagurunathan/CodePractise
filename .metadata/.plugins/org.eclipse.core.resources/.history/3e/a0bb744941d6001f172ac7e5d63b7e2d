@@ -1,0 +1,13 @@
+package collection;
+
+import java.util.*;
+
+public class PriorityQueueCollection {
+	
+	public static void main(String[] args) {
+		Queue t=new PriorityQueue();
+		
+	}
+	
+
+}

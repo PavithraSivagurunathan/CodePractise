@@ -1,0 +1,30 @@
+package collection;
+
+import java.util.*;
+
+public class ArrayListProgram {
+	
+	public static void main(String[] args) {
+		ArrayList ls = new ArrayList();
+		ls.add(1);
+		ls.add(1.1);
+		ls.add("character");
+		ls.add('c');
+		ls.add(true);
+		System.out.println(ls);
+		ListIterator li = ls.listIterator();
+		while(li.hasNext()) {
+			System.out.println("values - "+li.next());
+		}
+		while(li.hasPrevious()) {
+			System.out.println("values -"+li.previous());
+			ls.add(0);
+		}
+		if(ls.contains(1)) {
+			System.out.println(ls.size());
+			System.out.println(ls.hashCode());
+		}
+		
+	}
+
+}

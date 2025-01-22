@@ -1,0 +1,9 @@
+package objectClass;
+
+public class ObjectMethods {
+	public static void main(String[] args) {
+		ObjectMethods s = new ObjectMethods();
+		System.out.println(s);
+	}
+
+}

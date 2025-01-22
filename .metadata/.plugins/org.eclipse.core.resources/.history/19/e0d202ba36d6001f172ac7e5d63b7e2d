@@ -1,0 +1,13 @@
+package collection;
+
+
+import java.util.*;
+
+public class GenericCollectionSorting {
+	
+	public static void main (String[] args) {
+		Stack <Integer> r = new Stack<Integer>();
+		
+	}
+
+}

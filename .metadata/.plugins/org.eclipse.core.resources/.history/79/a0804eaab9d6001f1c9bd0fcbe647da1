@@ -1,0 +1,11 @@
+package MatchPredicate;
+
+public class Patternlist {
+	
+	public static void main(String[] args) {
+		String str="PP";
+		Pattern pr=Pattern
+				
+	}
+
+}

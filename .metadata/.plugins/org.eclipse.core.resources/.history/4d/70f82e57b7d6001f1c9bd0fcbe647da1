@@ -1,0 +1,17 @@
+package NewStringMethods;
+
+import java.util.Scanner;
+
+public class StringMtd {
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("Enter the string :");
+		String sr=sc.nextLine();
+		if(sr.isBlank()) {
+			System.out.println("Given String is blank");
+		}else {
+			System.out.println("Given String is "+sr);
+		}
+	}
+
+}

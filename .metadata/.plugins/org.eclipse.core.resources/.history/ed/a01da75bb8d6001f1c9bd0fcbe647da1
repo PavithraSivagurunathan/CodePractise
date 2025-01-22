@@ -1,0 +1,19 @@
+package NewFileMethods;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class Filemtd {
+	public static void main(String[] args) {
+		Path p=Paths.get("C:\\Users\\Acer\\Desktop","example.txt","example.txt");
+		try {
+			System.out.println(Files.readString(p));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

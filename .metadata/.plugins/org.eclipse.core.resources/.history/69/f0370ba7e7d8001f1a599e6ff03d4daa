@@ -1,0 +1,43 @@
+package hackerrank_Programs;
+
+import java.text.DecimalFormat;
+import java.util.Arrays;
+import java.util.List;
+
+public class ProportionCheck {
+	
+	public static void main (String [] args) {
+		
+		List<Integer> li = Arrays.asList(-4, 3, -9, 0, 4, 1);
+		System.out.println(li);
+		plusminus(li);
+		
+	}
+	public static void plusminus(List<Integer> arr) {
+		int p=0;
+		int n=0;
+		int z=0;
+		for(int ar=0;ar<arr.size();ar++) {
+			if(arr.get(ar) >0) {
+				p++;
+			}else if(arr.get(ar)<0) {
+				n++;
+			}else {
+				z++;
+			}
+			
+		}
+		System.out.format("%.6f",Proportion(p,arr.size())+"/n");
+		System.out.format("%.6f",Proportion(n,arr.size()));
+		System.out.format("%.6f",Proportion(z,arr.size()));
+		
+	}
+	
+	public static float Proportion(int a,int b) {
+		float proportion =0.0f;
+		proportion = (float)a/b;
+		return proportion;
+		
+	}
+
+}
