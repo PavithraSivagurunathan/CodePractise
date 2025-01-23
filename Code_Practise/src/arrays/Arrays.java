@@ -14,8 +14,10 @@ public class Arrays {
 			carr[lp]=val;
 		}
 		System.out.println("The Array of String in Forward :");
+		
 		for (int lp1=0;lp1<lenth;lp1++) {
 			System.out.println(carr[lp1]);
+		
 		}
 		System.out.println("The Array of String in Backward :");
 		for (int lp2=lenth-1;lp2>=0;lp2--) {
